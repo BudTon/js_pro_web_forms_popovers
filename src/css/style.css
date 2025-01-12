@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  padding-top: 10px;
+}
+
+h1,
+h2,
+h3 {
+  text-align: center;
+}
+
+h1 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
+
+h2 {
+  font-size: 1.3em;
+  margin-bottom: 30px;
+}
+
+h3 {
+  font-size: 1.1em;
+  margin-bottom: 10px;
+  text-align: left;
+}
+
+.forms {
+  min-height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  margin: 10vh;
+}
+
+.btn {
+  position: relative;
+  height: 3rem;
+  color: #fff;
+  font-size: 1.25rem;
+  line-height: 1.5;
+  background-color: #dc3545;
+  border-color: rgba(225, 83, 97, .5);
+  border-radius: .3rem;
+  padding: .5rem 1rem;
+}
+
+.popover {
+  position: absolute;
+  width: 10rem;
+  background-color: rgb(247, 246, 246);
+  border-width: 2px;
+  border-style: solid;
+  border-color: grey;
+  background: #fff;
+  z-index: 999;
+}
+
+.popover-title {
+  text-align: center;
+  letter-spacing: 0.2em;
+  color: black;
+  font-size: medium;
+  font-weight: bold;
+  background-color: grey;
+}
+
+.popover-content {
+  font-size: 1rem;
+  color: black;
+  padding: 0.2rem;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
